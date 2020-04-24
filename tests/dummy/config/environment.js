@@ -6,6 +6,7 @@ module.exports = function(environment) {
     environment,
     rootURL: '/',
     locationType: 'auto',
+
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
@@ -20,6 +21,18 @@ module.exports = function(environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
+    },
+
+    blog: {
+      title: 'empress-blog',
+      description: 'Howdy? Dawn is a simple yet powerful Ghost theme with features including membership, search, featured posts and there is more. Crafted with ❤️ by IVEEL.',
+      coverImage: '/images/blog-cover.jpg',
+
+      navigation: [{
+        label: 'About',
+        route: 'page',
+        id: 'chris-manson'
+      }]
     }
   };
 

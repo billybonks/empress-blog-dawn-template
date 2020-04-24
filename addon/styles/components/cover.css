@@ -1,0 +1,22 @@
+.cover {
+  margin-top: 4.5rem;
+}
+
+.cover-content {
+  margin: 0 auto;
+  max-width: 500px;
+  text-align: center;
+}
+
+.cover-description {
+  font-size: 1.7rem;
+  color: white;
+}
+
+.cover-icon {
+  margin-bottom: 2rem;
+}
+
+.cover-icon-image {
+  width: 150px;
+}

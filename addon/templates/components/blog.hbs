@@ -1,0 +1,18 @@
+<div class="blog-container">
+  <div class="blog-wrapper">
+    <Header @site={{this.site}} @navigation={{this.blog.navigation}} />
+    <Cover @description={{this.blog.description}}/>
+
+    <main id="site-main" class="site-main">
+
+        {{!-- All the main content gets inserted here, index.hbs, post.hbs, etc --}}
+        {{yield}}
+
+    </main>
+
+    {{!-- The footer at the very bottom of the screen --}}
+    {{!-- <footer class="site-foot">
+        &copy; {{date format="YYYY"}} {{#link-to 'index'}}{{this.blog.title}}{{/link-to}} &mdash; Published with <a href="https://github.com/empress/empress-blog" target="_blank" rel="noopener">empress-blog</a>
+    </footer> --}}
+  </div>
+</div>

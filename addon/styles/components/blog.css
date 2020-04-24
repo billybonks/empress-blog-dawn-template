@@ -1,0 +1,8 @@
+.blog-wrapper {
+  max-width: 1170px;
+}
+
+.blog-container {
+  display: flex;
+  justify-content: center;
+}

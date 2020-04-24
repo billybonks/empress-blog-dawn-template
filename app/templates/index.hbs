@@ -1,0 +1,9 @@
+<FeaturedArticles>
+  {{#each this.model as |post|}}
+    {{#if post.featured}}
+      <FeaturedArticle @image={{post.image}} @title={{post.title}}>
+      </FeaturedArticle>
+    {{/if}}
+  {{/each}}
+</FeaturedArticles>
+<Feed @posts={{this.model}} />

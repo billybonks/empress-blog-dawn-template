@@ -1,0 +1,19 @@
+.featured-article {
+  width: 357px;
+  margin-right: 30px;
+}
+
+.featured-article:last-child {
+  margin-right: 0;
+}
+
+.featured-article__image {
+  width: 357px;
+  height: 240px;
+}
+
+.featured-article__title {
+  font-size: 1.8rem;
+  color: var(--link-color);
+  margin: 3rem 0 0;
+}
