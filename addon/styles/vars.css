@@ -5,7 +5,10 @@
 
     /* Colours */
     --background-color: #282c35;
-
+    --base-font-colour:  #fff;
+    --accent-font-colour: #ff572f;
+    --muted-font-colour: #868686;
+    --border-colour: #3b3e46;
 
     --brand-color: #ff572f;
     --primary-text-color: #e2e2e2;

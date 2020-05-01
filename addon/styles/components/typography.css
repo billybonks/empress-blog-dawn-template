@@ -42,12 +42,12 @@ a {
 }
 
 a:link {
-  color: white;
+  color: var(--base-font-colour);
 }
 
 /* visited link */
 a:visited {
-  color: white;
+  color: var(--base-font-colour);
 }
 
 /* mouse over link */
@@ -58,5 +58,5 @@ a:hover {
 
 /* selected link */
 a:active {
-  color: white;
+  color: var(--base-font-colour);
 }
