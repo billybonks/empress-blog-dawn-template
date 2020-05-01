@@ -1,5 +1,5 @@
 <section class="feed">
-  {{#each (sort-by 'date:desc' @posts) as |post index|}}
+  {{#each (sort-by 'date:desc' @posts) as |post|}}
     <article class="feed-entry__container" >
       <span class="feed-entry__date">{{date post.date format="DD MMM"}}</span>
       <span class="feed-entry__title">{{post.title}}</span>
