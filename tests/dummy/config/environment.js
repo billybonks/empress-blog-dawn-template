@@ -25,7 +25,7 @@ module.exports = function(environment) {
 
     blog: {
       title: 'empress-blog',
-      description: 'Howdy? Dawn is a simple yet powerful Ghost theme with features including membership, search, featured posts and there is more. Crafted with ❤️ by IVEEL.',
+      description: 'Hi my name is Sebastien, I use this space to write down my thoughts and notes about programming',
       coverImage: '/images/blog-cover.jpg',
 
       navigation: [{

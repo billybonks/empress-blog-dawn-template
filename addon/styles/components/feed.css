@@ -28,6 +28,7 @@
 }
 
 .feed-entry__title {
+  overflow: visible;
   flex-grow: 2;
   font-size: 1.6rem;
   color: #fff;

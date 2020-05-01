@@ -18,5 +18,6 @@
 }
 
 .cover-icon-image {
+  border-radius: 80px;
   width: 150px;
 }

@@ -1,7 +1,7 @@
 <FeaturedArticles>
   {{#each this.model as |post|}}
     {{#if post.featured}}
-      <FeaturedArticle @image={{post.image}} @title={{post.title}}>
+      <FeaturedArticle @image={{post.image}} @title={{post.title}} @postId={{post.id}}>
       </FeaturedArticle>
     {{/if}}
   {{/each}}
