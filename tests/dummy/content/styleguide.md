@@ -25,7 +25,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 </figure>
 
 ## Wide Image
-```
+```javascript
 let x = [1,2,3,4]
 
 for (x = 0; x < arr.length; x++) {

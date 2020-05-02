@@ -1,5 +1,29 @@
 'use strict';
 
 module.exports = {
-  name: require('./package').name
+  name: require('./package').name,
+  included(app) {
+    this._super.included.apply(this, arguments)
+
+    if(!app.options['ember-prism']) {
+      app.options['ember-prism'] = {
+        theme: 'tomorrow',
+
+        components: [
+          'apacheconf',
+          'bash',
+          'css',
+          'handlebars',
+          'http',
+          'javascript',
+          'json',
+          'markup-templating',
+          'ruby',
+          'scss'
+        ],
+
+        plugins: ['line-numbers', 'normalize-whitespace']
+      }
+    }
+  }
 };

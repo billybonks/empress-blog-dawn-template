@@ -12,9 +12,8 @@
             </figure>
         </div>
         {{/if}}
-        <div class="post-content__body">
-            {{markdown-to-html post.content tagName=""}}
-        </div>
+
+        <PostContent @content={{post.content}} />
 
         <footer class="post-content__footer">
 

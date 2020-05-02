@@ -70,6 +70,10 @@ post-content__footer {
     text-decoration: underline;
 }
 
+.post-content :not(pre) > code[class*="language-"], pre[class*="language-"] {
+    background: #282c35;
+}
+
 .post-content p {
     font-size: 17px;
     font-weight: 200;
