@@ -41,7 +41,16 @@ There are two types of code elements which can be inserted in Markdown, the firs
 
 One neat trick which you can use in Markdown to distinguish between different types of images is to add a `#hash` value to the end of the source URL, and then target images containing the hash with special styling. For example:
 
-![walking](https://casper.ghost.org/v1.0.0/images/walking.jpg#full)
+<figure class="full-width">
+  <img src="https://casper.ghost.org/v1.0.0/images/walking.jpg#full" alt="walking">
+</figure>
+
+<figure class="full-width">
+  <img src="https://demo.iveel.co/ease/content/images/2019/06/baptist-standaert-333489-unsplash.jpg" alt="walking">
+</figure>
+
+
+
 
 which is styled with...
 

@@ -1,35 +1,35 @@
 
 {{#let this.model.post as |post|}}
-<article class="post-content {{this.post_class}} {{unless post.image 'no-image'}}">
+    <article class="post-content {{this.post_class}} {{unless post.image 'no-image'}}">
+        <header class="post-header">
+            <h1 class="post-header__title">{{post.title}}</h1>
+        </header>
 
-    <header class="post-content-header">
-        <h1 class="post-content-title">{{post.title}}</h1>
-    </header>
+        {{#if post.image}}
+        <div class="post-content__cover-image">
+            <figure class="full-width">
+                <img class="" src={{post.image}} alt={{post.title}} />
+            </figure>
+        </div>
+        {{/if}}
+        <div class="post-content__body">
+            {{markdown-to-html post.content tagName=""}}
+        </div>
 
-    {{#if post.image}}
-    <div class="post-content-image">
-        <img class="kg-image" src={{post.image}} alt={{post.title}} />
-    </div>
-    {{/if}}
+        <footer class="post-content__footer">
 
-    <div class="post-content-body">
-        {{markdown-to-html post.content tagName=""}}
-    </div>
+            {{!-- There are two options for how we display the byline/author-info.
+            If the post has more than one author, we load a specific template
+            from includes/byline-multiple.hbs, otherwise, we just use the
+            default byline. --}}
 
-    <footer class="post-content-footer">
+        </footer>
 
-        {{!-- There are two options for how we display the byline/author-info.
-        If the post has more than one author, we load a specific template
-        from includes/byline-multiple.hbs, otherwise, we just use the
-        default byline. --}}
+        {{!--
+        <section class="post-content-comments">
+            If you want to embed comments, this is a good place to do it!
+        </section>
+        --}}
 
-    </footer>
-
-    {{!--
-    <section class="post-content-comments">
-        If you want to embed comments, this is a good place to do it!
-    </section>
-    --}}
-
-</article>
+    </article>
 {{/let}}

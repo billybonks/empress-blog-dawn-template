@@ -6,12 +6,13 @@ html {
 body {
   font-size: 1.8rem;
   font-family: var(--font-base);
+  color: var(--base-font-colour);
   line-height: 1.6;
   text-rendering: optimizeLegibility;
 }
 
 h1,h2,h3,h4,h5,h6 {
-  color: var(--darker-gray-color);
+  color: var(--base-font-colour);
   font-family: var(--font-base);
   font-weight: 800;
   line-height: 1.3;
