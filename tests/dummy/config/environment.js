@@ -24,10 +24,10 @@ module.exports = function(environment) {
     },
 
     blog: {
-      title: 'empress-blog',
+      title: 'billybonks.dev',
       description: 'Hi my name is Sebastien, I use this space to write down my thoughts and notes about programming',
-      coverImage: '/images/blog-cover.jpg',
-
+      //coverImage: '/images/blog-cover.jpg',
+      coverImage: "https://avatars0.githubusercontent.com/u/1640136?s=400&u=108db0d2230b8d387e7abaf944465a0bc230def8&v=4",
       navigation: [{
         label: 'About',
         route: 'page',

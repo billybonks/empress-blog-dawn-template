@@ -1,5 +1,5 @@
 <header class="site-header">
-  <span class="site-header__title">Dawn</span>
+  <span class="site-header__title">{{@title}}</span>
   <ul class="site-header__nav" role="menu">
       {{#each @navigation as |navigation|}}
         <li class="{{if (route-is navigation.route) 'nav-current'}}" role="menuitem">
@@ -14,25 +14,3 @@
       {{/each}}
   </ul>
 </header>
-{{!--
-        <div class="site-head-center">
-            {{#if @site.logo}}
-            <a class="site-head-logo" href="{{@site.url}}"><img src="{{@site.logo}}" alt="{{@site.title}}" /></a>
-            {{else}}
-            <a class="site-head-logo" href="{{@site.url}}">{{}}asdasd</a>
-            {{/if}}
-        </div>
-        <div class="site-head-right">
-            <div class="social-links">
-                {{#if @site.facebook}}
-                <a href="{{facebook_url @site.facebook}}" title="Facebook" target="_blank" rel="noopener">Facebook</a>
-                {{/if}}
-                {{#if @site.twitter}}
-                <a href="{{twitter_url @site.twitter}}" title="Twitter" target="_blank" rel="noopener">Twitter</a>
-                {{/if}}
-                {{#if blog.host}}
-                <a href={{concat "https://feedly.com/i/subscription/feed/" (encode blog.host) '/rss.xml'}} title="RSS" target="_blank" rel="noopener">RSS</a>
-                {{/if}}
-            </div>
-        </div>
-    </div> --}}

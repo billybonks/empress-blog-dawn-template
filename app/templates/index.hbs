@@ -1,4 +1,4 @@
-<Cover @description={{this.blog.description}}/>
+<Cover @description={{this.blog.description}} @coverImage={{this.blog.coverImage}}/>
 <FeaturedArticles>
   {{#each this.model as |post|}}
     {{#if post.featured}}
