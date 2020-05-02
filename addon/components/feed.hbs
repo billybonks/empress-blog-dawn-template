@@ -1,9 +1,9 @@
 <section class="feed">
   {{#each (sort-by 'date:desc' @posts) as |post|}}
-    <article class="feed-entry__container" >
+    <LinkTo class="feed-entry__container" @route='post' @model={{post.id}}>
       <span class="feed-entry__date">{{date post.date format="DD MMM"}}</span>
       <span class="feed-entry__title">{{post.title}}</span>
       <span class="feed-entry__ttr">{{reading-time post}}</span>
-    </article>
+    </LinkTo>
   {{/each}}
 </section>
