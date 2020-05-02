@@ -10,7 +10,7 @@
   line-height: 1;
   height:50px;
   position: relative;
-  border-bottom: 1px solid var(--light-gray-color);
+  border-bottom: 1px solid var(--border-colour);
 }
 
 .feed-entry__container:last-child {
@@ -37,6 +37,7 @@
   padding-right: 1rem;
   text-overflow: ellipsis;
   white-space: nowrap;
+  overflow:visible;
 }
 
 .feed-entry__ttr {

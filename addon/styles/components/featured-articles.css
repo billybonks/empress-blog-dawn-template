@@ -3,7 +3,7 @@
 }
 
 .featured-articles__title {
-  border-bottom: 1px solid var(--light-gray-color);
+  border-bottom: 1px solid var(--border-colour);
   color: var(--accent-font-colour);
   font-size: 1.5rem;
   letter-spacing: 0.05rem;
