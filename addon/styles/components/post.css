@@ -40,9 +40,21 @@
     justify-content: center;
 }
 
-.full-width img {
+img[src$="#full"] {
+    max-width: 100vw;
+}
+
+.wide {
+    margin-left: calc(-920px / 2 + 100% / 2);
+    margin-right: calc(-920px / 2 + 100% / 2);
+    width: 920px;
+}
+
+.wide img {
     width: 100%;
 }
+
+
 
 post-content__body {
 
@@ -52,8 +64,15 @@ post-content__footer {
 
 }
 
+.post-content a:link {
+    color: var(--accent-font-colour);
+    font-weight: 700;
+    text-decoration: underline;
+}
+
 .post-content p {
-    font-size: 17px
+    font-size: 17px;
+    font-weight: 200;
 }
 
 .post-content h1 {
