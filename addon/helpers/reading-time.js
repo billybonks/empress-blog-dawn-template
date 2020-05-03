@@ -1,6 +1,5 @@
 import { helper } from '@ember/component/helper';
 import { wordCount, imageCount } from './utils';
-import _ from 'lodash';
 
 function isString(object){
   return (typeof object === 'string' || object instanceof String)
