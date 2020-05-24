@@ -35,6 +35,25 @@
     width: 100%;
 }
 
+.post-content__meta {
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--muted-font-colour)
+}
+
+.post-content__meta span::after{
+    content: "\02022";
+    font-family: serif;
+    padding: 0 0.3rem;
+}
+
+/* .post-content__meta *:first-child::before{
+    content: "";
+} */
+
 .full-width {
     margin-left: calc(-100vw / 2 + 100% / 2 + var(--scrollbar) / 2);
     margin-right: calc(-100vw / 2 + 100% / 2 + var(--scrollbar) / 2);

@@ -1,5 +1,6 @@
 .blog-wrapper {
   max-width: 1170px;
+  width: 100vw;
 }
 
 .blog-container {
