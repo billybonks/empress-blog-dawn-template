@@ -25,7 +25,7 @@ module.exports = function(environment) {
 
     blog: {
       title: 'billybonks.dev',
-      description: 'Hi my name is Sebastien, I use this space to write down my thoughts and notes about programming',
+      description: 'Demo site for empress-blog-dawn-template',
       //coverImage: '/images/blog-cover.jpg',
       coverImage: "https://avatars0.githubusercontent.com/u/1640136?s=400&u=108db0d2230b8d387e7abaf944465a0bc230def8&v=4",
       navigation: [{
@@ -34,19 +34,9 @@ module.exports = function(environment) {
         id: 'billybonks'
       },
       {
-        label: 'Demos',
-        route: 'page',
-        id: 'billybonks'
-      },
-      {
         label: 'Styleguide',
-        route: 'page',
-        id: 'billybonks'
-      },
-      {
-        label: 'hello',
-        route: 'page',
-        id: 'billybonks'
+        route: 'post',
+        id: 'styleguide'
       }]
     }
   };
