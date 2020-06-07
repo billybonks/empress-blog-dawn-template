@@ -1,7 +1,3 @@
-{{!--
-Re-usable card for linking to posts
---}}
-
 <article class="post-card {{@post_class}} {{if @post.image 'with-image' 'no-image'}}" style={{@computedStyle}}>
     <LinkTo @route='post' @model={{@post.id}}>
         <div class="post-card-content">
