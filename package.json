@@ -1,11 +1,12 @@
 {
   "name": "empress-blog-dawn-template",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.0.1",
+  "description": "Ui template from empress-blog",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "empress-blog"
   ],
-  "repository": "",
+  "repository": "https://github.com/billybonks/empress-blog-dawn-template",
   "license": "MIT",
   "author": "",
   "directories": {
