@@ -7,3 +7,9 @@
   list-style: none;
   display: inline-block;
 }
+
+
+.site-header__nav li[role="menuitem"] {
+  display: inline-block;
+  margin-right: 20px
+}

@@ -31,7 +31,22 @@ module.exports = function(environment) {
       navigation: [{
         label: 'About',
         route: 'page',
-        id: 'chris-manson'
+        id: 'billybonks'
+      },
+      {
+        label: 'Demos',
+        route: 'page',
+        id: 'billybonks'
+      },
+      {
+        label: 'Styleguide',
+        route: 'page',
+        id: 'billybonks'
+      },
+      {
+        label: 'hello',
+        route: 'page',
+        id: 'billybonks'
       }]
     }
   };

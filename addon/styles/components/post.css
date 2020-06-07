@@ -92,6 +92,10 @@ post-content__footer {
     text-decoration: underline;
 }
 
+.post-content a:visited {
+    color: var(--accent-font-colour);
+}
+
 .post-content :not(pre) > code[class*="language-"], pre[class*="language-"] {
     background: #282c35;
 }
@@ -102,15 +106,15 @@ post-content__footer {
 }
 
 .post-content h1 {
-    
+
 }
 
 .post-content h2 {
-    
+
 }
 
 .post-content h3 {
-    
+
 }
 
 img[src$="#full"] {

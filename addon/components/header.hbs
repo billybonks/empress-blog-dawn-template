@@ -1,5 +1,5 @@
 <header class="site-header">
-  <span class="site-header__title">{{@title}}</span>
+  {{#link-to "index" lass="site-header__title"}}{{@title}}{{/link-to}}
   <ul class="site-header__nav" role="menu">
       {{#each @navigation as |navigation|}}
         <li class="{{if (route-is navigation.route) 'nav-current'}}" role="menuitem">
