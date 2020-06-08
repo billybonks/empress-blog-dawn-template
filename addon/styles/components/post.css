@@ -37,7 +37,7 @@
 
 .post-content__meta {
     font-size: 1.2rem;
-    font-weight: 800;
+    font-weight: var(--font-heavy);
     margin-bottom: 1rem;
     text-transform: uppercase;
     text-align: center;
@@ -88,7 +88,7 @@ post-content__footer {
 
 .post-content a:link {
     color: var(--accent-font-colour);
-    font-weight: 800;
+    font-weight: var(--font-heavy);
     text-decoration: underline;
 }
 
@@ -102,7 +102,7 @@ post-content__footer {
 
 .post-content p {
     font-size: 17px;
-    font-weight: 200;
+    font-weight: var(--font-light);
 }
 
 .post-content h1 {

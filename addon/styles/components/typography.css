@@ -14,7 +14,7 @@ body {
 h1,h2,h3,h4,h5,h6 {
   color: var(--base-font-colour);
   font-family: var(--font-base);
-  font-weight: 800;
+  font-weight: var(--font-heavy);
   line-height: 1.3;
 }
 
