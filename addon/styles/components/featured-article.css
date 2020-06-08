@@ -12,7 +12,6 @@
 }
 
 .featured-article__title {
-  font-size: 1.8rem;
   color: var(--link-color);
   margin: 3rem 0 0;
 }

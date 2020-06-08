@@ -19,7 +19,7 @@
 
 .feed-entry__date {
   color: var(--accent-font-colour);
-  font-size: 1.1rem;
+  font-size: var(--font-size-small);
   font-weight: var(--font-heavy);
   margin-right: 1.5rem;
   white-space: nowrap;
@@ -29,7 +29,6 @@
 .feed-entry__title {
   overflow: visible;
   flex-grow: 2;
-  font-size: 1.6rem;
   color: var(--base-font-colour);
   font-weight: var(--font-normal);
   margin-bottom: 0;
@@ -41,7 +40,6 @@
 }
 
 .feed-entry__ttr {
-  font-size: 1.6rem;
   color: var(--base-font-colour);
   font-weight: var(--font-normal);
   margin-bottom: 0;

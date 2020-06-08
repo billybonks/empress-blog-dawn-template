@@ -24,7 +24,7 @@
     --font-normal: 400;
     --font-bold: 700;
     --font-heavy: 800;
-
+    --font-size-small: 0.8rem;
     /* Breakpoints */
     --xlarge: 1680px;
     --large: 1280px;
