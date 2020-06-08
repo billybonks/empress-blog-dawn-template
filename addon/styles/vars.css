@@ -3,12 +3,19 @@
 
 :root {
 
+  /* dark theme colours */
+  /* --background-color: #282c35;
+  --base-font-colour:  #fff;
+  --accent-font-colour: #ff572f;
+  --muted-font-colour: #868686;
+  --border-colour: #3b3e46; */
+
     /* Colours */
-    --background-color: #282c35;
-    --base-font-colour:  #fff;
-    --accent-font-colour: #ff572f;
-    --muted-font-colour: #868686;
-    --border-colour: #3b3e46;
+    --background-color: #fff;
+    --base-font-colour:  #3c414c;
+    --accent-font-colour: #024eff;
+    --muted-font-colour: #000000;
+    --border-colour: #d2d9e8;
 
     --scrollbar: 15px;
     /* Fonts */

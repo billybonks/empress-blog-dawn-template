@@ -88,7 +88,7 @@ post-content__footer {
 
 .post-content a:link {
     color: var(--accent-font-colour);
-    font-weight: 700;
+    font-weight: 800;
     text-decoration: underline;
 }
 
