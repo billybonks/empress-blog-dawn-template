@@ -13,6 +13,7 @@
 
 .featured-articles__carousell {
     display: flex;
+    justify-content: space-between;
 }
 
 @media only screen and (max-width : 1024px) {
