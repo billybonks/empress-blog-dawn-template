@@ -42,4 +42,25 @@
     --margin: 2rem;
     --radius: 0.5rem;
 
+
+    /* media-query-variables */
+    --carousell-direction: row
+
+}
+
+
+
+@media only screen and (max-width : 740px) {
+  :root {
+    --carousell-direction: column;
+  }
+
+  .featured-article__image {
+    height: inherit;
+    width: 100%;
+  }
+
+  .blog-wrapper{
+    padding-left: 10px;
+  }
 }
