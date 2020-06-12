@@ -79,6 +79,10 @@
 
   .featured-article__title {
     color: var(--link-color);
-    margin: 1rem 0;
+    margin: 3rem 0 0.5rem;
+  }
+
+  .featured-articles__title {
+    margin-bottom: 0;
   }
 }
