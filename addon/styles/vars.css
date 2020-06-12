@@ -10,7 +10,9 @@
   --muted-font-colour: #868686;
   --border-colour: #3b3e46; */
 
-    --site-gutter-size: 16%;
+    --site-max-wdith: 1170px;
+    --blog-content-max-width: 800px;
+
     /* Colours */
     --background-color: #fff;
     --base-font-colour:  #3c414c;

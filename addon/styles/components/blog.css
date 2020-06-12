@@ -1,5 +1,5 @@
 .blog-wrapper {
-  margin:0 var(--site-gutter-size);
+  max-width: var(--site-max-wdith);
   width: 100vw;
 }
 
