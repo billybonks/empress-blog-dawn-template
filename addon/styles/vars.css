@@ -63,4 +63,12 @@
   .blog-wrapper{
     padding-left: 10px;
   }
+
+  .feed-entry__ttr {
+    display: none
+  }
+
+  .feed {
+    max-width: 90%;
+  }
 }
