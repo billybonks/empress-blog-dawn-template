@@ -72,4 +72,13 @@
   .feed {
     max-width: 90%;
   }
+
+  .featured-article {
+    flex-direction: column-reverse;
+  }
+
+  .featured-article__title {
+    color: var(--link-color);
+    margin: 1rem 0;
+  }
 }

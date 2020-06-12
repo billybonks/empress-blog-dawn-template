@@ -1,3 +1,7 @@
+.featured-article {
+  display: flex;
+  flex-direction: column;
+}
 .featured-articles__wrapper {
   margin-top: 2rem;
 }
