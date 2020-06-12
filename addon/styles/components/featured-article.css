@@ -8,12 +8,11 @@
 
 .featured-article__image {
   height: 240px;
-  width: 100%;
 }
 
 .featured-article__title {
   color: var(--link-color);
-  margin: 3rem 0 0;
+  margin: 2rem 0 0;
 }
 
 .featured-article__wrapper {
