@@ -38,7 +38,7 @@
 .post-content__meta {
     font-size: var(--font-size-small);
     font-weight: var(--font-heavy);
-    margin-bottom: 1rem;
+    margin: 1rem 0;
     text-transform: uppercase;
     text-align: center;
     color: var(--muted-font-colour)
