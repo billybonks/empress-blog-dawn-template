@@ -62,8 +62,8 @@
     justify-content: center;
 }
 
-img[src$="#full"] {
-    max-width: 100vw;
+.full-width img {
+  max-width: 100vw;
 }
 
 .wide {
@@ -73,10 +73,8 @@ img[src$="#full"] {
 }
 
 .wide img {
-    width: 100%;
+  max-width: 100vw;
 }
-
-
 
 post-content__body {
 
