@@ -25,5 +25,11 @@ module.exports = {
         plugins: ['line-numbers', 'normalize-whitespace']
       }
     }
+  },
+
+  contentFor(type){
+    if(type == 'head') {
+      return `<link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Muli">`
+    }
   }
 };
