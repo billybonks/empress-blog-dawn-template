@@ -85,4 +85,17 @@
   .featured-articles__title {
     margin-bottom: 0;
   }
+
+  .wide {
+    margin: inherit;
+    width: inherit;
+  }
+
+  .wide img {
+    max-width: 100%;
+  }
+
+  .blog-wrapper {
+    width: 90vw;
+  }
 }
