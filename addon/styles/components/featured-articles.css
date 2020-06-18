@@ -9,7 +9,6 @@
 .featured-articles__title {
   border-bottom: 1px solid var(--border-colour);
   color: var(--accent-font-colour);
-  letter-spacing: 0.05rem;
   margin-bottom: 2rem;
   padding-bottom: 1rem;
   text-transform: uppercase;
