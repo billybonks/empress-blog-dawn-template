@@ -9,7 +9,7 @@
 }
 
 .site-header__nav {
-  list-style: none;
+  /* can be removed when adding a reset */
   margin: 0px;
   display: inline-block;
 }

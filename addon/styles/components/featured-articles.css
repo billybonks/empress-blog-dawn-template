@@ -16,7 +16,7 @@
 }
 
 .featured-articles__carousell {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: var(--carousell-direction);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: var(--carousell-direction);
 }
