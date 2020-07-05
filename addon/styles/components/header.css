@@ -1,8 +1,8 @@
 .site-header{
   display:flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
 }
+
 .site-header__title {
   color: var(--secondary-text-color);
   font-weight: var(--font-heavy);
