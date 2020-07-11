@@ -1,0 +1,50 @@
+
+@media only screen and (max-width : 740px) {
+  :root {
+    --carousell-direction: column;
+  }
+
+  .featured-article__image {
+    height: inherit;
+    width: 100%;
+  }
+
+  .blog-wrapper{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .feed-entry__ttr {
+    display: none
+  }
+
+  .feed {
+    max-width: 90%;
+  }
+
+  .featured-article {
+    flex-direction: column-reverse;
+  }
+
+  .featured-article__title {
+    color: var(--link-color);
+    margin: 3rem 0 0.5rem;
+  }
+
+  .featured-articles__title {
+    margin-bottom: 0;
+  }
+
+  .wide {
+    margin: inherit;
+    width: inherit;
+  }
+
+  .wide img {
+    max-width: 100vw;
+  }
+
+  .blog-wrapper {
+    width: 90vw;
+  }
+}
