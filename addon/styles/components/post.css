@@ -8,6 +8,12 @@
     text-align: center;
 }
 
+.post-header__title {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  margin-top: 70px;
+}
+
 .post-content__cover-image {
     position: relative;
     margin-left: calc(-100vw / 2 + 100% / 2 + var(--scrollbar) / 2);
@@ -44,6 +50,10 @@
     content: "\02022";
     font-family: serif;
     padding: 0 0.3rem;
+}
+
+.post-content__meta span:last-child::after{
+    content: "";
 }
 
 .full-width {

@@ -1,4 +1,6 @@
 body {
   background-color: var(--background-color);
   font-size: var(--base-font-size);
+  font-family: var(--font-base);
+  padding: 25px;
 }
