@@ -11,6 +11,7 @@ production stylesheet in assets/built/screen.css using gulp dev
 @import "base/vars.css";
 @import "base/media.css";
 @import "base/application.css";
+@import "base/typography.css";
 
 @import "components/blog.css";
 @import "components/cover.css";
@@ -19,7 +20,6 @@ production stylesheet in assets/built/screen.css using gulp dev
 @import "components/feed.css";
 @import "components/header.css";
 @import "components/post.css";
-@import "components/typography.css";
 
 
 /* Main - Theme styles
