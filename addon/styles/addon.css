@@ -9,7 +9,6 @@ production stylesheet in assets/built/screen.css using gulp dev
 /* Lib - Local component imports
 /* ---------------------------------------------------------- */
 @import "base/vars.css";
-@import "base/media.css";
 @import "base/application.css";
 @import "base/typography.css";
 
