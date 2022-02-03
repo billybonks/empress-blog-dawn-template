@@ -1,8 +1,8 @@
 <header class="site-header">
-  {{#link-to "index" class="site-header__title"}}{{@title}}{{/link-to}}
+  <LinkTo @route="index" class="site-header__title">{{@title}}</LinkTo>
   <ul class="site-header__nav" role="menu">
       {{#each @navigation as |navigation|}}
-        <li class="{{if (route-is navigation.route) 'nav-current'}}" role="menuitem">
+        <li role="menuitem">
           {{#if navigation.id}}
             <LinkTo @route={{navigation.route}} @model={{navigation.id}}> {{navigation.label}} </LinkTo>
           {{else if navigation.route}}
